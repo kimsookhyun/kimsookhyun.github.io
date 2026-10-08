@@ -89,6 +89,13 @@ body{background:#f5eee8}.wrap{box-shadow:0 14px 50px rgba(116,61,22,.11)}
 .quote{background:linear-gradient(125deg,#3b3029,#1d1c1b)}
 .contact{background:linear-gradient(150deg,#fff0e1,#fff)}
 </style>
+<style>
+.insurer-title{font-size:17px;margin:22px 0 12px;color:#4d3021}
+.insurer-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.insurer-link{border:1px solid #f2d8c5;background:#fffaf6;border-radius:13px;padding:13px 10px;display:flex;flex-direction:column;gap:4px;text-decoration:none;color:#30251f;font-weight:800;font-size:14px}
+.insurer-link small{color:#c26429;font-size:11px;font-weight:700}
+.insurer-link:focus-visible{outline:3px solid #ed702a;outline-offset:2px}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -144,13 +151,33 @@ body{background:#f5eee8}.wrap{box-shadow:0 14px 50px rgba(116,61,22,.11)}
 
   <section class="section" id="forms">
     <h2>보험금 청구 안내 · 자료실</h2>
-    <p class="intro">보험금 청구서는 가입하신 보험사에서 제공하는 최신 공식 양식을 이용해 주세요. 보험사별 청구서 다운로드 링크는 확인 후 순차적으로 추가할 예정입니다.</p>
+    <p class="intro">가입하신 보험사를 선택하면 공식 홈페이지로 이동합니다. 보험사 홈페이지에서 <strong>보험금 청구 / 필요서류 / 청구서 양식</strong> 메뉴를 확인해 주세요. 보험사마다 메뉴 이름과 제출 방법이 다를 수 있습니다.</p>
+    <h3 class="insurer-title">손해보험사</h3>
+    <div class="insurer-grid"><a class="insurer-link" href="https://www.samsungfire.com/" target="_blank" rel="noopener noreferrer"><span>삼성화재</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.hi.co.kr/" target="_blank" rel="noopener noreferrer"><span>현대해상</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.idbins.com/" target="_blank" rel="noopener noreferrer"><span>DB손해보험</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.kbinsure.co.kr/" target="_blank" rel="noopener noreferrer"><span>KB손해보험</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.meritzfire.com/" target="_blank" rel="noopener noreferrer"><span>메리츠화재</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.hwgeneralins.com/" target="_blank" rel="noopener noreferrer"><span>한화손해보험</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.lotteins.co.kr/" target="_blank" rel="noopener noreferrer"><span>롯데손해보험</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.heungkukfire.co.kr/" target="_blank" rel="noopener noreferrer"><span>흥국화재</span><small>공식 홈페이지 ↗</small></a></div>
+    <h3 class="insurer-title">생명보험사</h3>
+    <div class="insurer-grid"><a class="insurer-link" href="https://www.samsunglife.com/" target="_blank" rel="noopener noreferrer"><span>삼성생명</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.hanwhalife.com/" target="_blank" rel="noopener noreferrer"><span>한화생명</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.kyobo.com/" target="_blank" rel="noopener noreferrer"><span>교보생명</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.shinhanlife.co.kr/" target="_blank" rel="noopener noreferrer"><span>신한라이프</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://life.miraeasset.com/" target="_blank" rel="noopener noreferrer"><span>미래에셋생명</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.myangel.co.kr/" target="_blank" rel="noopener noreferrer"><span>동양생명</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.lina.co.kr/" target="_blank" rel="noopener noreferrer"><span>라이나생명</span><small>공식 홈페이지 ↗</small></a>
+<a class="insurer-link" href="https://www.aia.co.kr/" target="_blank" rel="noopener noreferrer"><span>AIA생명</span><small>공식 홈페이지 ↗</small></a></div>
+    <p class="intro" style="margin-top:14px">※ 현재 버튼은 <strong>공식 홈페이지 연결</strong>이며, 청구서 PDF 직접 다운로드는 아닙니다. 개별 PDF는 최신 양식과 사용 조건을 확인한 후 추가할 예정입니다.</p>
+    <h3 class="insurer-title">청구 전 확인할 사항</h3>
     <div class="checks">
-      <div class="check">가입한 보험사 확인</div>
-      <div class="check">보험사 공식 청구서 및 구비서류 확인</div>
-      <div class="check">청구서 작성 후 해당 보험사의 공식 접수 채널로 제출</div>
+      <div class="check">가입 보험사와 청구할 보험 종류 확인</div>
+      <div class="check">보험사 안내에 따라 청구서, 신분확인 및 사고·진료 관련 구비서류 확인</div>
+      <div class="check">보험사 공식 앱·홈페이지·우편 등 안내된 방법으로 제출</div>
     </div>
-    <p class="intro">※ 이 홈페이지에서는 진단서, 주민등록번호 등 개인정보가 포함된 서류를 받지 않습니다.</p>
+    <p class="intro">※ 이 홈페이지에서는 진단서, 주민등록번호 등 개인정보가 포함된 서류를 접수하거나 보관하지 않습니다.</p>
   </section>
   <section class="section" id="career">
     <h2>30년의 보험 경험</h2>
